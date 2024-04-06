@@ -92,7 +92,7 @@ def visualize_movement(waypoints, positions, yaws):
     mp.grid()
     mp.show() ######22
 
-# 두 번째 사용예시
+# 두 번째 사용예시 (2024/04/26: 이 부분 왜 있는건지 왜 적었는지 까먹음;)
 x_values = [x * 0.5 for x in range(20)]
 waypoints = [(x, math.sin(x)) for x in x_values]
 
